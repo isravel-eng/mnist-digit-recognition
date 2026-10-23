@@ -1,0 +1,5 @@
+MNIST CNN
+Input: 28x28x1 grayscale
+Preprocessing: float32 pixels divided by 255
+Output: 10 softmax probabilities for digits 0-9
+Architecture: Conv2D(32) -> MaxPool -> Conv2D(64) -> MaxPool -> Flatten -> Dense(128) -> Dropout(0.3) -> Dense(10, softmax)
