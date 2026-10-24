@@ -1,9 +1,7 @@
-# Recommended Python: 3.11
-# TensorFlow will select a compatible NumPy version during installation.
-tensorflow>=2.16,<3
-numpy>=1.26,<2.2
+# Python 3.11 is selected in runtime.txt for deployment compatibility.
+tensorflow-cpu==2.16.2
+numpy>=1.26,<2.0
 matplotlib>=3.8
 scikit-learn>=1.4
 streamlit>=1.35
 pillow>=10
-jupyter>=1.0
